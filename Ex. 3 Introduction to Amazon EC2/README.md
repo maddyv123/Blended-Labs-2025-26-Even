@@ -2,9 +2,9 @@
 
 ## Author
 
-* **Name**: ________________________________
-* **Register Number**: _____________________
-* **Date of Submission**: __________________
+* **Name**: Mathavan V
+* **Register Number**: 212223110026
+* **Date of Submission**: 21.08.2026
 
 ---
 
@@ -96,35 +96,16 @@ Terminate the EC2 instance after completing the experiment to avoid unnecessary 
 
 ## Workflow (Student Explanation)
 
-(Write the steps you followed in your own words)
+I opened the AWS Management Console and navigated to the EC2 Dashboard.
+I checked the existing EC2 instance and noted its Availability Zone.
+I opened Elastic Block Store (EBS) → Volumes and created a new EBS volume in the same Availability Zone as the EC2 instance.
+I selected a suitable volume type such as General Purpose SSD (gp3) and specified the required storage size.
+After creating the volume, I selected it and used Attach Volume to attach it to my running EC2 instance.
 
-1. ---
-2. ---
-3. ---
-4. ---
-5. ---
+## Output Screenshots
+<img width="1750" height="738" alt="Screenshot 2026-08-21 154551" src="https://github.com/user-attachments/assets/454adc1a-d997-455c-a0e5-746adf3f7f6f" />
+<img width="1851" height="937" alt="Screenshot 2026-08-21 131741" src="https://github.com/user-attachments/assets/cb8a51dd-7ecb-4c12-aacf-acb94357c8dc" />
 
----
-
-## Output Screenshots (Attach 3)
-
-### Screenshot 1: EC2 Dashboard / Instance List
-
-(Insert Screenshot Here)
-
----
-
-### Screenshot 2: SSH Connection to Instance
-
-(Insert Screenshot Here)
-
----
-
-### Screenshot 3: Instance Monitoring / Status
-
-(Insert Screenshot Here)
-
----
 
 ## Result 
 
