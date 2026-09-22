@@ -2,9 +2,9 @@
 
 ## Author
 
-* **Name**: ________________________________
-* **Register Number**: _____________________
-* **Date of Submission**: __________________
+* **Name**:Mathavan V
+* **Register Number**: 212223110026
+* **Date of Submission**: 21.08.2026
 
 ---
 
@@ -85,35 +85,18 @@ Create a simple HTML page and verify that it can be accessed from a web browser 
 
 ## Workflow (Student Explanation)
 
-(Write the steps you followed in your own words)
+I opened the AWS Management Console and navigated to the EC2 Dashboard.
+I checked the existing EC2 instance and noted its Availability Zone.
+I opened Elastic Block Store (EBS) → Volumes and created a new EBS volume in the same Availability Zone as the EC2 instance.
+I selected a suitable volume type such as General Purpose SSD (gp3) and specified the required storage size.
+After creating the volume, I selected it and used Attach Volume to attach it to my running EC2 instance.
 
-1. ---
-2. ---
-3. ---
-4. ---
-5. ---
+## Output Screenshots 
+<img width="1917" height="861" alt="Screenshot 2026-08-21 155956" src="https://github.com/user-attachments/assets/783763c9-7d8b-40a0-a5cd-cd4c87902aa2" />
 
----
+<img width="1913" height="912" alt="Screenshot 2026-08-21 155330" src="https://github.com/user-attachments/assets/a71efae6-9d6a-4513-a109-9b850e183748" />
 
-## Output Screenshots (Attach 3)
 
-### Screenshot 1: VPC and Subnet Details
-
-(Insert Screenshot Here)
-
----
-
-### Screenshot 2: EC2 Instance Running
-
-(Insert Screenshot Here)
-
----
-
-### Screenshot 3: Web Server Output in Browser
-
-(Insert Screenshot Here)
-
----
 
 ## Result 
 
